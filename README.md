@@ -84,4 +84,27 @@ User Name: sa
 
 Password: password
 
-### Refer to Unit test Doc for testing screenshots
+### Refer to Unit test Doc for testing screenshots(Postman)
+
+## Testing
+
+### Running Unit Tests
+
+#### Service 1 (Orchestrator)
+cd service1-orchestrator ->
+mvn test
+
+#### Service 2 (Greeting)
+cd service2-greeting ->
+mvn test
+
+#### Service 3 (Concat)
+cd service3-concat ->
+mvn test
+
+#### Service 4 (Database)
+cd service4-database ->
+mvn test
+
+
+
